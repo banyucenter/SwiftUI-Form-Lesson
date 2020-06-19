@@ -9,9 +9,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var enableAirplaneMode = false
-    var notificationMode = ["Lock Screen", "Notification Centre", "Banners"]
-    @State private var selectedMode = 0
     
     var body: some View {
         NavigationView{
